@@ -13,7 +13,7 @@ struct clipApp: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentViewClip()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }

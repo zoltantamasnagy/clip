@@ -16,6 +16,7 @@
 		677AAE2329A2C9D4007AD472 /* clipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677AAE2229A2C9D4007AD472 /* clipTests.swift */; };
 		677AAE2D29A2C9D4007AD472 /* clipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677AAE2C29A2C9D4007AD472 /* clipUITests.swift */; };
 		677AAE2F29A2C9D4007AD472 /* clipUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677AAE2E29A2C9D4007AD472 /* clipUITestsLaunchTests.swift */; };
+		677AAE3C29A2C9EE007AD472 /* Clip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 677AAE3B29A2C9EE007AD472 /* Clip.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,8 @@
 		677AAE2829A2C9D4007AD472 /* clipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = clipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		677AAE2C29A2C9D4007AD472 /* clipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clipUITests.swift; sourceTree = "<group>"; };
 		677AAE2E29A2C9D4007AD472 /* clipUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clipUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		677AAE3B29A2C9EE007AD472 /* Clip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clip.swift; sourceTree = "<group>"; };
+		677AAE3D29A2CA14007AD472 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +102,12 @@
 		677AAE0A29A2C9D2007AD472 /* clip */ = {
 			isa = PBXGroup;
 			children = (
+				677AAE3D29A2CA14007AD472 /* Info.plist */,
 				677AAE0B29A2C9D2007AD472 /* clipApp.swift */,
 				677AAE0D29A2C9D2007AD472 /* ContentView.swift */,
 				677AAE0F29A2C9D4007AD472 /* Assets.xcassets */,
 				677AAE1429A2C9D4007AD472 /* Persistence.swift */,
+				677AAE3B29A2C9EE007AD472 /* Clip.swift */,
 				677AAE1929A2C9D4007AD472 /* clip.entitlements */,
 				677AAE1629A2C9D4007AD472 /* clip.xcdatamodeld */,
 				677AAE1129A2C9D4007AD472 /* Preview Content */,
@@ -267,6 +272,7 @@
 			files = (
 				677AAE1529A2C9D4007AD472 /* Persistence.swift in Sources */,
 				677AAE1829A2C9D4007AD472 /* clip.xcdatamodeld in Sources */,
+				677AAE3C29A2C9EE007AD472 /* Clip.swift in Sources */,
 				677AAE0E29A2C9D2007AD472 /* ContentView.swift in Sources */,
 				677AAE0C29A2C9D2007AD472 /* clipApp.swift in Sources */,
 			);
@@ -432,6 +438,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clip/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -459,6 +466,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clip/Info.plist;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
